@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    color: white;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    padding: 8px;
+    font-weight: 700;
+}
+
+.headerlinks{
+    padding: 12px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    gap: 24px;
+    color: #e5e7eb
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 16px;
+    ;
+}
+
+
+.hero{
+    display: flex;
+}
